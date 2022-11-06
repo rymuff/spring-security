@@ -1,5 +1,5 @@
 /*
- * Copyright 2004, 2005, 2006 Acegi Technology Pty Limited
+ * Copyright 2002-2020 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ import org.springframework.util.Assert;
 public class DaoAuthenticationProvider extends AbstractUserDetailsAuthenticationProvider {
 
 	/**
-	 * The plaintext password used to perform PasswordEncoder#matches(CharSequence,
+	 * The plaintext password used to perform {@link PasswordEncoder#matches(CharSequence,
 	 * String)} on when the user is not found to avoid SEC-2056.
 	 */
 	private static final String USER_NOT_FOUND_PASSWORD = "userNotFoundPassword";
